@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\MetalSearchGame\\HoleShit\\Source\\HoleShit\\HoleShit.Build.cs",
+		"E:\\MetalSearchGame\\HoleShit\\Source\\HoleShit.Target.cs",
+		"E:\\MetalSearchGame\\HoleShit\\Source\\HoleShitEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.3"
+}

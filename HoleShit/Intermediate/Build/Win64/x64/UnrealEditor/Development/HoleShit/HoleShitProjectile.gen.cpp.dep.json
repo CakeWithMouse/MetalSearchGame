@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\metalsearchgame\\holeshit\\intermediate\\build\\win64\\unrealeditor\\inc\\holeshit\\uht\\holeshitprojectile.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\metalsearchgame\\holeshit\\intermediate\\build\\win64\\x64\\holeshiteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\metalsearchgame\\holeshit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\holeshit\\definitions.holeshit.h",
+            "e:\\metalsearchgame\\holeshit\\source\\holeshit\\holeshitprojectile.h",
+            "e:\\metalsearchgame\\holeshit\\intermediate\\build\\win64\\unrealeditor\\inc\\holeshit\\uht\\holeshitprojectile.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
