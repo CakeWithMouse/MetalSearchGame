@@ -4,15 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "HoleShitGameMode.generated.h"
+#include "HoleSHitGameMode.generated.h"
 
-UCLASS(minimalapi)
-class AHoleShitGameMode : public AGameModeBase
+/**
+ *  Simple GameMode for a first person game
+ */
+UCLASS(abstract)
+class AHoleSHitGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
-	AHoleShitGameMode();
+	AHoleSHitGameMode();
 };
 
 

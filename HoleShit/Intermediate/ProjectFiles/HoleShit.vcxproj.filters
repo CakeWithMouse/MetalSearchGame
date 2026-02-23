@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\HoleShit.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\HoleShit.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\HoleShitEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,47 +20,2625 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
-    <Filter Include="Source\HoleShit">
-      <UniqueIdentifier>{9D5EC222-378B-3A7F-804C-6972AB15B1FD}</UniqueIdentifier>
+    <None Include="..\..\HoleSHit.uproject" />
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Source\HoleShit\HoleShit.Build.cs">
-      <Filter>Source\HoleShit</Filter>
+    <Filter Include="Plugins\VoxelPlugin">
+      <UniqueIdentifier>{63257972-3014-37F1-9F43-78D4C17E8FDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Config">
+      <UniqueIdentifier>{A7FF3F16-AD48-378D-A799-0D18C4684229}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VoxelPlugin\Config\BaseVoxelFree.ini">
+      <Filter>Plugins\VoxelPlugin\Config</Filter>
     </None>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShit.cpp">
-      <Filter>Source\HoleShit</Filter>
+    <None Include="..\..\Plugins\VoxelPlugin\Config\DefaultVoxelFree.ini">
+      <Filter>Plugins\VoxelPlugin\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\VoxelPlugin\Config\FilterPlugin.ini">
+      <Filter>Plugins\VoxelPlugin\Config</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Resources">
+      <UniqueIdentifier>{97157495-8D7B-38D1-AFF2-EC1A7F2627D6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VoxelPlugin\Resources\Icon128.png">
+      <Filter>Plugins\VoxelPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Shaders">
+      <UniqueIdentifier>{4E28F6AA-F467-33F2-8BD2-AB6C4D945704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Shaders\Private">
+      <UniqueIdentifier>{2B0D5614-9C53-3CBE-8DF5-484D1DDB7E6A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VoxelPlugin\Shaders\Private\DistanceField.usf">
+      <Filter>Plugins\VoxelPlugin\Shaders\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\VoxelPlugin\Shaders\Private\Erosion.usf">
+      <Filter>Plugins\VoxelPlugin\Shaders\Private</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Source">
+      <UniqueIdentifier>{43EE0284-0836-3767-BEB8-ECE0CDF84D28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditorDefault">
+      <UniqueIdentifier>{E116B973-4080-36FE-B306-E5BA98154E7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditorDefault\Private">
+      <UniqueIdentifier>{561045F0-8174-367B-A5CC-12805A037DFA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditorDefault\Private\ActorFactoryVoxelPlaceableItems.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditorDefault\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShit.h">
-      <Filter>Source\HoleShit</Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditorDefault\Private\ActorFactoryVoxelWorld.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditorDefault\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitCharacter.cpp">
-      <Filter>Source\HoleShit</Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditorDefault\Private\VoxelEditorDefaultModule.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditorDefault\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitCharacter.h">
-      <Filter>Source\HoleShit</Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public">
+      <UniqueIdentifier>{CB25A7C8-4669-30DD-B2AF-93C34009503B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public\ActorFactoryVoxelMeshImporter.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public\ActorFactoryVoxelPlaceableItems.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public\ActorFactoryVoxelWorld.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public\VoxelEditorDefaultModule.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditorDefault\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditorDefault\VoxelEditorDefault.Build.cs">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditorDefault</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor">
+      <UniqueIdentifier>{31DD5D06-22CF-3714-B729-752C34AD95E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Private">
+      <UniqueIdentifier>{53B7DD63-1A3E-3664-9DAA-D78BF25BEF4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools">
+      <UniqueIdentifier>{F0ACB603-8FC6-3251-9A78-322E5586A96D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelBase.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelDataAsset.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitGameMode.cpp">
-      <Filter>Source\HoleShit</Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelDataAsset.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelGraphDataItemConfig.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelGraphGenerator.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitGameMode.h">
-      <Filter>Source\HoleShit</Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelGraphGenerator.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelGraphMacro.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitPickUpComponent.cpp">
-      <Filter>Source\HoleShit</Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelGraphMacro.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelGraphOutputsConfig.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelHeightmapAsset.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitPickUpComponent.h">
-      <Filter>Source\HoleShit</Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelHeightmapAsset.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelMaterialCollection.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelSpawnerConfig.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelSpawners.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools\AssetTypeActions_VoxelWorldSaveObject.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor">
+      <UniqueIdentifier>{D440B352-7EB8-309C-9DF7-F2691DEAB387}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\IVoxelDataAssetEditor.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\SVoxelDataAssetEditorViewport.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitProjectile.cpp">
-      <Filter>Source\HoleShit</Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\SVoxelDataAssetEditorViewport.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\VoxelDataAssetEditorCommands.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\VoxelDataAssetEditorManager.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitProjectile.h">
-      <Filter>Source\HoleShit</Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\VoxelDataAssetEditorManager.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\VoxelDataAssetEditorToolkit.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitWeaponComponent.cpp">
-      <Filter>Source\HoleShit</Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\VoxelDataAssetEditorToolkit.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\VoxelDataAssetEditorViewportClient.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HoleShit\HoleShitWeaponComponent.h">
-      <Filter>Source\HoleShit</Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor\VoxelDataAssetEditorViewportClient.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\DataAssetEditor</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details">
+      <UniqueIdentifier>{5085E986-16E9-3730-8AD8-0582FDBABE58}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\RangeAnalysisDebuggerDetails.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\RangeAnalysisDebuggerDetails.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelAssetActorDetails.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelAssetActorDetails.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelBasicSpawnerScaleSettingsCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelBasicSpawnerScaleSettingsCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelBoolVectorCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelBoolVectorCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelGeneratorPickerCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelGeneratorPickerCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelGraphOutputCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelGraphOutputCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelInt32IntervalCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelInt32IntervalCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelLandscapeImporterDetails.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelLandscapeImporterDetails.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelMeshImporterDetails.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelMeshImporterDetails.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelMeshSpawnerBaseDetails.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelMeshSpawnerBaseDetails.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelPaintMaterialCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelPaintMaterialCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelSpawnerConfigSpawnerCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelSpawnerConfigSpawnerCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelSpawnerDensityCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelSpawnerDensityCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelSpawnerOutputNameCustomization.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelSpawnerOutputNameCustomization.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelWorldDetails.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details\VoxelWorldDetails.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Details</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode">
+      <UniqueIdentifier>{A40AD4DB-CCC9-3281-B1DA-036642B7C4E1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode\VoxelEdMode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode\VoxelEdMode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode\VoxelEdModeToolkit.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode\VoxelEdModeToolkit.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\EdMode</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories">
+      <UniqueIdentifier>{D8A288C5-7290-3A2F-A28D-A3B996D93354}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelDataAssetFactory.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelDataAssetFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelGraphDataItemConfigFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelGraphGeneratorAssetFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelGraphMacroAssetFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelGraphOutputsConfigFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelHeightmapAssetFactory.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelHeightmapAssetFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelMaterialCollectionFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelSpawnerConfigFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelSpawnersFactories.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories\VoxelWorldSaveObjectFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Factories</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Private\K2Nodes">
+      <UniqueIdentifier>{C12ABF52-4C15-34E0-8095-C3E45422AFBC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\K2Nodes\K2Node_AddDataItem.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\K2Nodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\K2Nodes\K2Node_AddDataItem.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\K2Nodes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails">
+      <UniqueIdentifier>{FC8CD31C-56C7-3933-85B8-88560B6E192D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails\VoxelDataAssetThumbnailRenderer.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails\VoxelGraphGeneratorThumbnailRenderer.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails\VoxelHeightmapAssetThumbnailRenderer.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails\VoxelSpawnersThumbnailRenderer.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails\VoxelSpawnersThumbnailRenderer.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private\Thumbnails</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelConvertLandscapeMaterial.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelConvertLandscapeMaterial.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelDebugEditor.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelDebugEditor.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelEditorDetailsIncludes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelEditorDetailsIncludes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelEditorDetailsUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelEditorDetailsUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelEditorModule.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelEditorToolsPanel.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelEditorToolsPanel.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelMessagesEditor.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelMessagesEditor.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelOpenAssetsOnStartup.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelOpenAssetsOnStartup.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelScopedTransaction.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelToolsCommands.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelToolsCommands.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelWorldEditorControls.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Private\VoxelWorldEditorControls.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelEditor\Public">
+      <UniqueIdentifier>{11F9C7C3-5FBC-3922-8D8F-94C086D996DF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Public\VoxelEditorModule.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\Public\VoxelScopedTransaction.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\VoxelEditor\VoxelEditor.Build.cs">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelEditor</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelExamples">
+      <UniqueIdentifier>{8D6B957E-69D8-3C84-A90D-1DFD64BF4394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelExamples\Private">
+      <UniqueIdentifier>{C4FAB185-6C7B-3682-9266-0BDD13B68470}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelExamples\Private\VoxelExamplesModule.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelExamples\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelExamples\Private\VoxelGeneratorExample.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelExamples\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelExamples\Public">
+      <UniqueIdentifier>{C62AF59F-2D33-3B69-B144-ECE53D6CB79D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelExamples\Public\VoxelExamplesModule.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelExamples\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelExamples\Public\VoxelGeneratorExample.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelExamples\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\VoxelExamples\VoxelExamples.Build.cs">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelExamples</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraphEditor">
+      <UniqueIdentifier>{6153E1E1-1D87-31D7-99F1-575A3C387CC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private">
+      <UniqueIdentifier>{CCC1CCA4-80A1-3833-9E58-F89A2621BD96}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\DummyObject.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview">
+      <UniqueIdentifier>{6C84F223-1EB3-3353-83B2-7333E2C180BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview\SVoxelGraphPreview.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview\SVoxelGraphPreview.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview\SVoxelGraphPreviewViewport.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview\SVoxelGraphPreviewViewport.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview\VoxelGraphPreview.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview\VoxelGraphPreview.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\Preview</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\SVoxelPalette.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\SVoxelPalette.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelDebugGraphUtils.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelEdGraph.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelEdGraph.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphConnectionDrawingPolicy.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphConnectionDrawingPolicy.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphEditor.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphEditor.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphEditorCommands.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphEditorModule.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphEditorToolkit.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphEditorToolkit.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphEditorUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphEditorUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes">
+      <UniqueIdentifier>{FFE0B034-6D14-33DC-AB9E-E33A9773C317}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\SGraphNodeDefaultVoxel.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\SVoxelGraphNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\SVoxelGraphNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\VoxelGraphNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\VoxelGraphNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\VoxelGraphNodeFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\VoxelGraphNode_Base.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\VoxelGraphNode_Base.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\VoxelGraphNode_Knot.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\VoxelGraphNode_Knot.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes\VoxelGraphNode_Root.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphPanelPinFactory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphSchema.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphSchema.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphShortcuts.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private\VoxelGraphShortcuts.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraphEditor\Public">
+      <UniqueIdentifier>{894CC541-E50C-3EF9-9D35-AAE7A20D4075}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Public\IVoxelGraphEditorToolkit.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\Public\VoxelGraphEditorModule.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraphEditor\VoxelGraphEditor.Build.cs">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraphEditor</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph">
+      <UniqueIdentifier>{8EB12536-A73E-3A3D-96C8-777E126AFDBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Private">
+      <UniqueIdentifier>{E5FE80CC-7372-3152-BD93-381680046262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Private\CppTranslation">
+      <UniqueIdentifier>{7025BF39-2105-3045-8605-42777FDEBA5A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\CppTranslation\VoxelVariables.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\CppTranslation</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples">
+      <UniqueIdentifier>{D53A5598-3AFE-33E9-BBEF-0CFAB415A8B3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VDI_Capsule_Graph.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VDI_Capsule_Graph.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VDI_Example_Crater_Graph.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VDI_Example_Crater_Graph.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VDI_Ravine_Graph.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VDI_Ravine_Graph.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VDI_Sphere_Graph.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VDI_Sphere_Graph.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_Craters.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_Craters.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_Dunes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_Dunes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_Erosion.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_Erosion.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_FastCraters.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_FastCraters.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_MultiIndex.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VG_Example_MultiIndex.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Cave.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Cave.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Cliffs.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Cliffs.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_FloatingIslandOnion.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_FloatingIslandOnion.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_HeightmapComposition.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_HeightmapComposition.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_HollowPlanet.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_HollowPlanet.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_IQNoise.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_IQNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_LayeredPlanet.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_LayeredPlanet.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_LayeredWorld.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_LayeredWorld.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Planet.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Planet.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Ravines.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Ravines.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_RingWorld.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_RingWorld.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Tool_NoisyColors.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples\VoxelExample_Tool_NoisyColors.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\Examples</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Private\NodeFunctions">
+      <UniqueIdentifier>{0FC57544-D96A-3C2A-8AEC-03515B581C2C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\NodeFunctions\VoxelNodeFunctions.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\NodeFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelAxisDependencies.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelContext.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelGraphErrorReporter.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelGraphGenerator.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelGraphModule.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelGraphOutputs.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelGraphOutputsConfig.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelGraphPreviewSettings.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes">
+      <UniqueIdentifier>{3C8B6533-D57C-349D-85B3-F3643086110F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelBinaryNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelBiomeMapNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelBiomeMergeNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelConstantNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelCoordinatesNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelCurveNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelDataAssetSamplerNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelExecNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelExposedNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelGavoronoiNoiseNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelGeneratorMergeNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelGeneratorSamplerNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelGetMaterialCollectionIndexNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelGradientPerturbNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelGraphAssetNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelGraphMacro.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelHeightmapSamplerNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelHeightSplitterNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelIfNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelLocalVariables.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelMaterialNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelMathNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelNodeColors.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelNodeHelper.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelNoiseNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelOptimizationNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelParameterNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelPlaceableItemsNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelRandomNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelSDFNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelSeedNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelTextureSamplerNode.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelVoronoiNoiseNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes\VoxelWhiteNoiseNodes.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Private\VoxelPinCategory.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Public">
+      <UniqueIdentifier>{30DF256D-D616-341F-BBE0-E31EC967B06E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Public\Compilation">
+      <UniqueIdentifier>{658E31B6-B16C-3DDD-BCCD-E42C9E80D6D7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\Compilation\VoxelCompilationEnums.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\Compilation</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Public\CppTranslation">
+      <UniqueIdentifier>{E10D60F5-0C54-3A39-BECA-B9F295CA81EB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\CppTranslation\VoxelVariables.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\CppTranslation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\IVoxelGraphEditor.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions">
+      <UniqueIdentifier>{BF49BC3E-5C98-387C-A0AF-184D3F609DE6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions\VoxelDeprecatedNodeFunctions.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions\VoxelMathNodeFunctions.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions\VoxelNodeFunctions.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions\VoxelPlaceableItemsNodeFunctions.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions\VoxelSDFNodeFunctions.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\NodeFunctions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Public\Runtime">
+      <UniqueIdentifier>{C7A824C6-B07D-33C6-AC04-4FEF09AF5304}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\Runtime\VoxelNodeType.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelAxisDependencies.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelContext.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGeneratedWorldGeneratorsDefinitions.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGeneratedWorldGeneratorsIncludes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGeneratedWorldGeneratorsPCH.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphConstants.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphDataItemConfig.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphErrorReporter.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphGenerator.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphGeneratorHelpers.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphGlobals.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphModule.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphOutputs.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphOutputsConfig.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelGraphPreviewSettings.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes">
+      <UniqueIdentifier>{8AD6CA6F-333F-3128-AD52-EE56B5499500}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelAssetPickerNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelBinaryNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelBiomeMapNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelBiomeMergeNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelConstantNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelCoordinatesNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelCurveNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelDataAssetSamplerNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelDeprecatedNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelExecNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelExposedNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelGavoronoiNoiseNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelGeneratorMergeNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelGeneratorSamplerNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelGetMaterialCollectionIndexNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelGradientPerturbNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelGraphAssetNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelGraphMacro.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelHeightmapSamplerNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelHeightSplitterNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelIfNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelLocalVariables.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelMaterialNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelMathNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelNodeColors.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelNodeHelper.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelNodeHelperMacros.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelNodeStructs.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelNoiseNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelNoiseNodesBase.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelNoiseNodesMacros.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelOptimizationNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelParameterNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelPlaceableItemsNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelRandomNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelSDFNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelSeedNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelTextureSamplerNode.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelVoronoiNoiseNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes\VoxelWhiteNoiseNodes.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\Public\VoxelPinCategory.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\VoxelGraph\VoxelGraph.Build.cs">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelGraph</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelHelpers">
+      <UniqueIdentifier>{E04DA692-9740-30DD-875F-91D1FD30C355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelHelpers\Private">
+      <UniqueIdentifier>{88456A6A-1919-3EA9-A88B-5A071E5835B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Private\MaterialExpressionBlendMaterialAttributesBarycentric.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Private\MaterialExpressionPack.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Private\VoxelColorWheel.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Private\VoxelHelpersLibrary.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Private\VoxelHelpersModule.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\VoxelHelpers\Public">
+      <UniqueIdentifier>{65921B1C-7E23-36E1-87C2-556FCEAF0EF7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Public\MaterialExpressionBlendMaterialAttributesBarycentric.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Public\MaterialExpressionPack.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Public\VoxelColorWheel.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Public\VoxelHelpersLibrary.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\Public\VoxelHelpersModule.h">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\VoxelHelpers\VoxelHelpers.Build.cs">
+      <Filter>Plugins\VoxelPlugin\Source\VoxelHelpers</Filter>
+    </None>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel">
+      <UniqueIdentifier>{FFF02E56-D512-3F0F-8E12-6A3B5D42775F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private">
+      <UniqueIdentifier>{2234AB2E-372C-3425-AA6C-5E0F36832DA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\FastNoise">
+      <UniqueIdentifier>{0781F328-58A1-36DE-9EB4-CE59C3040D57}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\FastNoise\LICENSE">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\FastNoise</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\FastNoise\VoxelFastNoiseLUT.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\FastNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\IVoxelPool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelAssets">
+      <UniqueIdentifier>{1B818628-21C0-38A7-A4F1-44F91BE61A48}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelAssets\VoxelDataAsset.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelAssets\VoxelDataAssetData.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelAssets\VoxelHeightmapAsset.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelAssets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelAsyncWork.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelComponents">
+      <UniqueIdentifier>{F0DB93D2-7BE6-32E9-A453-4BEA6B99008F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelComponents\VoxelInvokerComponent.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelComponents\VoxelNoClippingComponent.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelComponents\VoxelPhysicsRelevancyComponent.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelComponents</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData">
+      <UniqueIdentifier>{926B6AAD-FB99-36FD-BBAF-67780866EE11}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData\VoxelData.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData\VoxelDataAccelerator.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData\VoxelDataOctree.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData\VoxelDataOctreeLeafUndoRedo.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData\VoxelSave.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData\VoxelSaveUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelData</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDebug">
+      <UniqueIdentifier>{2C8F9F67-022B-39A2-86B9-AE7CF1330CC5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDebug\VoxelDebugManager.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDebug\VoxelDebugUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDebug\VoxelLineBatchComponent.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDefaultPool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDefinitions.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelDomainAssetFix.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelEvents">
+      <UniqueIdentifier>{1587E2C7-BC5B-39FD-BB5E-A77479C10AF6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelEvents\VoxelEventManager.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelEvents</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators">
+      <UniqueIdentifier>{13D93E08-D80C-3EE4-A71A-6EF209C063DC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators\VoxelGenerator.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators\VoxelGeneratorCache.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators\VoxelGeneratorParameters.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators\VoxelGeneratorPicker.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators\VoxelGeneratorTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelGenerators</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelImporters">
+      <UniqueIdentifier>{917F5AA5-9E89-393B-97B1-7D069B1B2F37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelImporters\SDFGen">
+      <UniqueIdentifier>{E46BF0C4-4C21-317C-962D-C84D5B8D9FF7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelImporters\SDFGen\README.md">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelImporters\SDFGen</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelImporters\VoxelLandscapeImporter.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelImporters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelImporters\VoxelMeshImporter.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelImporters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelMaterialBuilder.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelMaterialInterface.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelMaterialUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelMessages.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelModule.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelMultiplayer">
+      <UniqueIdentifier>{3C332896-7C6A-36AA-BF36-00C26775BB7A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelMultiplayer\VoxelMultiplayerTcp.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelMultiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelObjectArchive.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems">
+      <UniqueIdentifier>{47C12292-6522-3E46-9D89-D2D57DF57285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors">
+      <UniqueIdentifier>{700154B0-3DE1-3BC9-870B-B03466549904}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors\VoxelAssetActor.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors\VoxelDataItemActor.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors\VoxelDisableEditsBox.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors\VoxelPlaceableItemActorHelper.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\VoxelPlaceableItem.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\VoxelPlaceableItemManager.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems\VoxelPlaceableItemsUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelPlaceableItems</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender">
+      <UniqueIdentifier>{FF3E6751-7559-3CBC-A5E7-6276477CAA39}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\IVoxelLODManager.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\IVoxelRenderer.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager">
+      <UniqueIdentifier>{D0139DD0-376D-3861-AD88-9A508390F62D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager\VoxelDefaultLODManager.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager\VoxelDefaultLODManager.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager\VoxelFixedResolutionLODManager.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager\VoxelFixedResolutionLODManager.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager\VoxelRenderOctree.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager\VoxelRenderOctree.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\LODManager</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections">
+      <UniqueIdentifier>{8D554C55-64E1-35D5-8831-69F8403C588A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections\VoxelBasicMaterialCollection.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections\VoxelCachedMaterialCollection.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections\VoxelInstancedMaterialCollection.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections\VoxelLandscapeMaterialCollection.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\MaterialCollections</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers">
+      <UniqueIdentifier>{75177E31-A14D-3B02-ACE2-BCEE338349E6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\Transvoxel.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelCubicMesher.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelCubicMesher.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelMarchingCubeMesher.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelMarchingCubeMesher.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelMesher.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelMesher.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelMesherUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelMesherUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelSurfaceNetMesher.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers\VoxelSurfaceNetMesher.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Meshers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker">
+      <UniqueIdentifier>{ABFC7D85-51D0-3639-B0ED-04F3A1836836}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker\VoxelAsyncPhysicsCooker.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker\VoxelAsyncPhysicsCooker.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker\VoxelAsyncPhysicsCooker_Chaos.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker\VoxelAsyncPhysicsCooker_Chaos.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\PhysicsCooker</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers">
+      <UniqueIdentifier>{FD64BF70-5D38-3B92-B84C-A50BEDDA8A6B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelDefaultRenderer.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelDefaultRenderer.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelMesherAsyncWork.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelRendererBasicMeshHandler.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelRendererBasicMeshHandler.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelRendererClusteredMeshHandler.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelRendererClusteredMeshHandler.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelRendererMeshHandler.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelRendererMeshHandler.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelRendererMixedMeshHandler.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers\VoxelRendererMixedMeshHandler.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\Renderers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelChunkMesh.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelMaterialExpressions.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelPrimitiveComponentSettings.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelProceduralMeshComponent.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelProceduralMeshSceneProxy.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelProceduralMeshSceneProxy.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelProcMeshBuffers.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelRawStaticIndexBuffer.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelRenderUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender\VoxelRenderUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelRender</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSerializationUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSettings.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders">
+      <UniqueIdentifier>{6206440D-6D72-34F1-BE5E-2FE58A173A3F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders\VoxelDistanceFieldShader.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders\VoxelErosion.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders\VoxelErosionShader.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders\VoxelErosionShader.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelShaders</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners">
+      <UniqueIdentifier>{9351A022-A017-3337-BBFA-0D986F07C158}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners\VoxelInstancedMeshSettings.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners\VoxelMeshSpawner.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners\VoxelSpawner.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners\VoxelSpawnerActor.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners\VoxelSpawnerConfig.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners\VoxelSpawnerGroup.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelSpawners</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelStaticWorld.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTexture.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTextureUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelThreadPool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools">
+      <UniqueIdentifier>{8AC95BD5-6CA7-3E18-972A-7E1C8409959E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen">
+      <UniqueIdentifier>{42A8A11F-9C26-3E93-A7B4-DBFC6CC56740}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen\VoxelBoxTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen\VoxelGeneratedTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen\VoxelLevelTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen\VoxelSphereTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen\VoxelSurfaceEditTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Gen</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Impl">
+      <UniqueIdentifier>{DAAEFC61-7F08-3284-9629-5190393E839D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Impl\VoxelToolsBaseImpl.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Impl</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools">
+      <UniqueIdentifier>{DBE6F785-C7DD-35BE-978E-BD20F6A70599}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelFlattenTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelLevelTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelMeshTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelRevertTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelSmoothTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelSphereTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelSphereToolBase.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelSurfaceTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelToolBase.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelToolLibrary.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools\VoxelTrimTool.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelAssetTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelBlueprintLibrary.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelDataTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelHardnessHandler.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelMathLibrary.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelPaintMaterial.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelPhysics.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelPhysicsPartSpawner.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelProjectionTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelSurfaceTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelTestLibrary.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelTextureTools.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelToolHelpers.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelToolManager.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools\VoxelToolsBase.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelTools</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Private\VoxelUtilities">
+      <UniqueIdentifier>{09F5348D-6571-36B4-BF66-3BE0B457FA43}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelUtilities\VoxelConfigUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelUtilities\VoxelDistanceFieldUtilities.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private\VoxelUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelWorld.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Private\VoxelWorldRootComponent.cpp">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public">
+      <UniqueIdentifier>{DB8B2559-91DC-33E6-93C3-8C6FF0B4F97D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise">
+      <UniqueIdentifier>{B2AE6548-3671-3A23-80B4-4036AFDBA2A8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\CrossPlatformSTD.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoiseBase.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoiseBase.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoiseLUT.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoiseLUT.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoiseMath.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoiseMath.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoiseTest.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_CellularNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_CellularNoise.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_CubicNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_CubicNoise.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_GradientPerturb.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_GradientPerturb.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_PerlinNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_PerlinNoise.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_SimplexNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_SimplexNoise.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_ValueNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_ValueNoise.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_WhiteNoise.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise\VoxelFastNoise_WhiteNoise.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\FastNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\IVoxelPool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets">
+      <UniqueIdentifier>{5537C0A0-0FFC-32D3-9661-8FA97336A2DC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelDataAsset.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelDataAssetData.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelDataAssetData.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelDataAssetInstance.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelHeightmapAsset.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelHeightmapAssetData.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelHeightmapAssetData.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelHeightmapAssetInstance.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets\VoxelHeightmapAssetSamplerWrapper.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAssets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelAsyncWork.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelBoolVector.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelCancelCounter.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelCharacter.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelComponents">
+      <UniqueIdentifier>{91F20026-56EF-3405-A61B-03159A361E60}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelComponents\VoxelInvokerComponent.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelComponents\VoxelNoClippingComponent.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelComponents\VoxelPhysicsRelevancyComponent.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelComponents</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers">
+      <UniqueIdentifier>{2E321A17-66ED-356F-B691-449AD60C02DC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers\NoGrowArray.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers\VoxelArray3.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers\VoxelArrayView.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers\VoxelSparseArray.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers\VoxelStaticArray.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelContainers</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData">
+      <UniqueIdentifier>{E3B713A3-6F39-3828-B004-EEE44DAF2F66}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\IVoxelData.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelData.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelData.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataAccelerator.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataAccelerator.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataImpl.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataImpl.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataIncludes.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataLock.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataOctree.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataOctreeLeafData.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataOctreeLeafMultiplayer.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataOctreeLeafUndoRedo.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelDataUtilities.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelSave.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData\VoxelSaveUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDebug.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDebug">
+      <UniqueIdentifier>{DC1B5C37-054B-35D3-88AC-EFA88E63872E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDebug\VoxelDebugManager.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDebug\VoxelDebugUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDebug\VoxelLineBatchComponent.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDefaultPool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDefinitions.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDelegateHelpers.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDiff.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelDirection.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelEditorDelegates.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelEditorDelegatesInterface.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelEngineVersionHelpers.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelEnums.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelEvents">
+      <UniqueIdentifier>{FF02B63D-FF12-365A-832D-678FC242FEE3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelEvents\VoxelEventManager.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelFeedbackContext.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators">
+      <UniqueIdentifier>{642B6389-63DE-3622-B593-B16DE5226B3E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelEmptyGenerator.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelFlatGenerator.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGenerator.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorCache.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorHelpers.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorInit.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorInstance.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorInstance.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorInstanceWrapper.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorParameters.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorPicker.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelGeneratorTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators\VoxelTransformableGeneratorHelper.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelGenerators</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelImporters">
+      <UniqueIdentifier>{F9157F95-95E6-3546-8E0B-AB7958E1454D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelImporters\VoxelLandscapeImporter.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelImporters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelImporters\VoxelMeshImporter.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelImporters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelIntBox.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelIntBoxLibrary.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelInterpolator.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelInvokerSettings.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelItemStack.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelLog.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMacros.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMaterial.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMaterialBuilder.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMessages.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMinimal.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelModule.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMultiplayer">
+      <UniqueIdentifier>{13C3BC6F-8AA6-3BDF-A52F-EC29930C8B52}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMultiplayer\VoxelMultiplayerInterface.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMultiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMultiplayer\VoxelMultiplayerInterfaceWithSocket.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMultiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMultiplayer\VoxelMultiplayerTcp.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelMultiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelObjectArchive.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelOctree.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelOctreeId.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems">
+      <UniqueIdentifier>{D8BE2953-2F29-3765-A1A1-4B2A4326DFD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors">
+      <UniqueIdentifier>{D458876A-671C-3402-A982-766666DD1033}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors\VoxelAssetActor.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors\VoxelDataItemActor.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors\VoxelDisableEditsBox.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors\VoxelPlaceableItemActor.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors\VoxelPlaceableItemActorHelper.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\VoxelPlaceableItem.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\VoxelPlaceableItemManager.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems\VoxelPlaceableItemsUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPlaceableItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelPriorityHandler.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelQueryZone.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelQueuedWork.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelQueueWithNum.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRange.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender">
+      <UniqueIdentifier>{B0FA1F35-3A9C-3177-8618-B3925B33F296}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\IVoxelLODManager.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\IVoxelProceduralMeshComponent_PhysicsCallbackHandler.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\IVoxelRenderer.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections">
+      <UniqueIdentifier>{9348EE52-7079-35CA-A73D-8061D2070CC8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections\VoxelBasicMaterialCollection.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections\VoxelCachedMaterialCollection.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections\VoxelInstancedMaterialCollection.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections\VoxelLandscapeMaterialCollection.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections\VoxelMaterialCollectionBase.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\MaterialCollections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelChunkMaterials.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelChunkMesh.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelChunkToUpdate.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelLODMaterials.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelMaterialExpressions.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelMaterialIndices.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelMaterialInterface.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelMeshConfig.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelMesherAsyncWork.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelPrimitiveComponentSettings.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelProceduralMeshComponent.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelProcMeshBuffers.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelProcMeshSectionSettings.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelProcMeshTangent.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelRawStaticIndexBuffer.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender\VoxelToolRendering.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSaveStruct.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSettings.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelShaders">
+      <UniqueIdentifier>{15B47729-246A-3F05-BA5D-ABF152EDB297}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelShaders\VoxelDistanceFieldShader.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelShaders\VoxelErosion.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSharedMutex.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSharedPtr.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSimpleOctree.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners">
+      <UniqueIdentifier>{3DCA45C9-1687-3344-9ED6-61414EBE4FAB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelAssetSpawner.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelBasicSpawner.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelHierarchicalInstancedStaticMeshComponent.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelInstancedMeshSettings.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelMeshSpawner.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelSpawner.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelSpawnerActor.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelSpawnerConfig.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelSpawnerGroup.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners\VoxelSpawnerOutputsConfig.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelStaticWorld.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelStats.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTexture.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelThreadPool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTickable.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools">
+      <UniqueIdentifier>{17424E74-D0DA-3DFD-B084-589A4F2C1F32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen">
+      <UniqueIdentifier>{4F0A5086-8AEE-349C-87B0-C2BF157D40CD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen\VoxelBoxTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen\VoxelLevelTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen\VoxelSphereTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen\VoxelSurfaceEditTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen\VoxelToolsBase.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Gen</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl">
+      <UniqueIdentifier>{32AF9099-2ADC-3205-98D0-DB45BFD2057F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelBoxToolsImpl.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelBoxToolsImpl.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelLevelToolsImpl.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelLevelToolsImpl.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelSphereToolsImpl.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelSphereToolsImpl.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelSurfaceEditToolsImpl.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelSurfaceEditToolsImpl.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelToolsBaseImpl.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl\VoxelToolsBaseImpl.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Impl</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools">
+      <UniqueIdentifier>{0C96ABA7-BE96-33D7-ACEA-DC1C4DA59A86}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelFlattenTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelLevelTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelMeshTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelRevertTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelSmoothTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelSphereTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelSphereToolBase.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelSurfaceTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelToolBase.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelToolLibary.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelToolWithAlignment.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools\VoxelTrimTool.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelAssetTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelAssetTools.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelBlueprintLibrary.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelDataTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelDataTools.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelHardnessHandler.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelMathLibrary.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelPaintMaterial.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelPhysics.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelPhysicsPartSpawner.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelPhysicsPartSpawnerInterface.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelProjectionTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelSurfaceEdits.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelSurfaceTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelSurfaceToolsImpl.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelTestLibrary.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelTextureTools.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelToolHelpers.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools\VoxelToolManager.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUniqueError.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUserDefinitions.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities">
+      <UniqueIdentifier>{45522EC7-3E7B-382F-AC4C-546D17A6B7EF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelBaseUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelConfigUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelDataItemUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelDistanceFieldUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelDistanceFieldUtilities.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelExampleUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelGeneratorUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelIntVectorUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelLambdaUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelMaterialUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelMathUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelMiscUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelOctreeUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelRangeUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelRichCurveUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelSDFRangeUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelSDFUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelSDFUtilitiesImpl.inl">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelSerializationUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelStatsUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelTextureUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelThreadingUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities\VoxelVectorUtilities.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public\VoxelUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelValue.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelVector.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelWorld.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelWorldCreateInfo.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelWorldInterface.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Public\VoxelWorldRootComponent.h">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VoxelPlugin\Source\Voxel\Voxel.Build.cs">
+      <Filter>Plugins\VoxelPlugin\Source\Voxel</Filter>
+    </None>
+    <None Include="..\..\Plugins\VoxelPlugin\VoxelFree.uplugin">
+      <Filter>Plugins\VoxelPlugin</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HoleSHit.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HoleSHitEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\HoleSHit">
+      <UniqueIdentifier>{8D188EE6-EEC3-3441-9976-3BD797A2D4A4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HoleSHit\HoleSHit.Build.cs">
+      <Filter>Source\HoleSHit</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HoleSHit\HoleSHit.cpp">
+      <Filter>Source\HoleSHit</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\HoleSHit.h">
+      <Filter>Source\HoleSHit</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\HoleSHitCameraManager.cpp">
+      <Filter>Source\HoleSHit</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\HoleSHitCameraManager.h">
+      <Filter>Source\HoleSHit</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\HoleSHitCharacter.cpp">
+      <Filter>Source\HoleSHit</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\HoleSHitCharacter.h">
+      <Filter>Source\HoleSHit</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\HoleSHitGameMode.cpp">
+      <Filter>Source\HoleSHit</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\HoleSHitGameMode.h">
+      <Filter>Source\HoleSHit</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\HoleSHitPlayerController.cpp">
+      <Filter>Source\HoleSHit</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\HoleSHitPlayerController.h">
+      <Filter>Source\HoleSHit</Filter>
+    </ClInclude>
+    <Filter Include="Source\HoleSHit\Variant_Horror">
+      <UniqueIdentifier>{A70CF033-CE6D-3C1B-886A-2370EB1C4045}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Horror\HorrorCharacter.cpp">
+      <Filter>Source\HoleSHit\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Horror\HorrorCharacter.h">
+      <Filter>Source\HoleSHit\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Horror\HorrorGameMode.cpp">
+      <Filter>Source\HoleSHit\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Horror\HorrorGameMode.h">
+      <Filter>Source\HoleSHit\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Horror\HorrorPlayerController.cpp">
+      <Filter>Source\HoleSHit\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Horror\HorrorPlayerController.h">
+      <Filter>Source\HoleSHit\Variant_Horror</Filter>
+    </ClInclude>
+    <Filter Include="Source\HoleSHit\Variant_Horror\UI">
+      <UniqueIdentifier>{C875B06E-59DF-3053-8281-6D1D263B1347}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Horror\UI\HorrorUI.cpp">
+      <Filter>Source\HoleSHit\Variant_Horror\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Horror\UI\HorrorUI.h">
+      <Filter>Source\HoleSHit\Variant_Horror\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\HoleSHit\Variant_Shooter">
+      <UniqueIdentifier>{9799A3A8-B1B5-3B4E-B7AC-07FFBC77DBC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HoleSHit\Variant_Shooter\AI">
+      <UniqueIdentifier>{D037095E-74A6-3D87-852E-6DA65DC6F1BB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\AI\EnvQueryContext_Target.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\AI\EnvQueryContext_Target.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\AI\ShooterAIController.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\AI\ShooterAIController.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\AI\ShooterNPC.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\AI\ShooterNPC.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\AI\ShooterNPCSpawner.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\AI\ShooterNPCSpawner.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\AI\ShooterStateTreeUtility.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\AI\ShooterStateTreeUtility.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\ShooterCharacter.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\ShooterCharacter.h">
+      <Filter>Source\HoleSHit\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\ShooterGameMode.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\ShooterGameMode.h">
+      <Filter>Source\HoleSHit\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\ShooterPlayerController.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\ShooterPlayerController.h">
+      <Filter>Source\HoleSHit\Variant_Shooter</Filter>
+    </ClInclude>
+    <Filter Include="Source\HoleSHit\Variant_Shooter\UI">
+      <UniqueIdentifier>{C036774E-25B9-3C07-8B93-AE677963F78A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\UI\ShooterBulletCounterUI.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\UI\ShooterBulletCounterUI.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\UI\ShooterUI.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\UI\ShooterUI.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\HoleSHit\Variant_Shooter\Weapons">
+      <UniqueIdentifier>{DB1A44E8-1730-3EA8-A571-D17C412A5371}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\Weapons\ShooterPickup.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\Weapons\ShooterPickup.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\Weapons\ShooterProjectile.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\Weapons\ShooterProjectile.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\Weapons\ShooterWeapon.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\Weapons\ShooterWeapon.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoleSHit\Variant_Shooter\Weapons\ShooterWeaponHolder.cpp">
+      <Filter>Source\HoleSHit\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoleSHit\Variant_Shooter\Weapons\ShooterWeaponHolder.h">
+      <Filter>Source\HoleSHit\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

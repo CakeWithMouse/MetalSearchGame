@@ -1,13 +1,13 @@
 {
 	"Targets": [
 		{
-			"Name": "HoleShit",
-			"Path": "..\\Source\\HoleShit.Target.cs",
+			"Name": "HoleSHit",
+			"Path": "..\\Source\\HoleSHit.Target.cs",
 			"Type": "Game"
 		},
 		{
-			"Name": "HoleShitEditor",
-			"Path": "..\\Source\\HoleShitEditor.Target.cs",
+			"Name": "HoleSHitEditor",
+			"Path": "..\\Source\\HoleSHitEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

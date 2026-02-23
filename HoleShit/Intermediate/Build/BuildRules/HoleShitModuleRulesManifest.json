@@ -1,8 +1,15 @@
 {
 	"SourceFiles": [
-		"E:\\MetalSearchGame\\HoleShit\\Source\\HoleShit\\HoleShit.Build.cs",
-		"E:\\MetalSearchGame\\HoleShit\\Source\\HoleShit.Target.cs",
-		"E:\\MetalSearchGame\\HoleShit\\Source\\HoleShitEditor.Target.cs"
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Source\\HoleSHit\\HoleSHit.Build.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Plugins\\VoxelPlugin\\Source\\VoxelEditorDefault\\VoxelEditorDefault.Build.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Plugins\\VoxelPlugin\\Source\\VoxelEditor\\VoxelEditor.Build.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Plugins\\VoxelPlugin\\Source\\VoxelExamples\\VoxelExamples.Build.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Plugins\\VoxelPlugin\\Source\\VoxelGraphEditor\\VoxelGraphEditor.Build.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Plugins\\VoxelPlugin\\Source\\VoxelGraph\\VoxelGraph.Build.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Plugins\\VoxelPlugin\\Source\\VoxelHelpers\\VoxelHelpers.Build.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Plugins\\VoxelPlugin\\Source\\Voxel\\Voxel.Build.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Source\\HoleSHit.Target.cs",
+		"S:\\ITMO\\SecondSemester\\MetalSearchGame\\HoleSHit\\Source\\HoleSHitEditor.Target.cs"
 	],
-	"EngineVersion": "5.5.3"
+	"EngineVersion": "5.7.3"
 }

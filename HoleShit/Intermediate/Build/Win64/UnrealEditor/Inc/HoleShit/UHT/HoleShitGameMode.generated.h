@@ -4,51 +4,58 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "HoleShitGameMode.h"
+// IWYU pragma: private, include "HoleSHitGameMode.h"
+
+#ifdef HOLESHIT_HoleSHitGameMode_generated_h
+#error "HoleSHitGameMode.generated.h already included, missing '#pragma once' in HoleSHitGameMode.h"
+#endif
+#define HOLESHIT_HoleSHitGameMode_generated_h
+
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-#ifdef HOLESHIT_HoleShitGameMode_generated_h
-#error "HoleShitGameMode.generated.h already included, missing '#pragma once' in HoleShitGameMode.h"
-#endif
-#define HOLESHIT_HoleShitGameMode_generated_h
 
-#define FID_HoleShit_Source_HoleShit_HoleShitGameMode_h_12_INCLASS_NO_PURE_DECLS \
+// ********** Begin Class AHoleSHitGameMode ********************************************************
+struct Z_Construct_UClass_AHoleSHitGameMode_Statics;
+HOLESHIT_API UClass* Z_Construct_UClass_AHoleSHitGameMode_NoRegister();
+
+#define FID_HoleSHit_Source_HoleSHit_HoleSHitGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesAHoleShitGameMode(); \
-	friend struct Z_Construct_UClass_AHoleShitGameMode_Statics; \
+	static void StaticRegisterNativesAHoleSHitGameMode(); \
+	friend struct ::Z_Construct_UClass_AHoleSHitGameMode_Statics; \
+	static UClass* GetPrivateStaticClass(); \
+	friend HOLESHIT_API UClass* ::Z_Construct_UClass_AHoleSHitGameMode_NoRegister(); \
 public: \
-	DECLARE_CLASS(AHoleShitGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/HoleShit"), HOLESHIT_API) \
-	DECLARE_SERIALIZER(AHoleShitGameMode)
+	DECLARE_CLASS2(AHoleSHitGameMode, AGameModeBase, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/HoleSHit"), Z_Construct_UClass_AHoleSHitGameMode_NoRegister) \
+	DECLARE_SERIALIZER(AHoleSHitGameMode)
 
 
-#define FID_HoleShit_Source_HoleShit_HoleShitGameMode_h_12_ENHANCED_CONSTRUCTORS \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	AHoleShitGameMode(AHoleShitGameMode&&); \
-	AHoleShitGameMode(const AHoleShitGameMode&); \
-public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(HOLESHIT_API, AHoleShitGameMode); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHoleShitGameMode); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHoleShitGameMode) \
-	HOLESHIT_API virtual ~AHoleShitGameMode();
+#define FID_HoleSHit_Source_HoleSHit_HoleSHitGameMode_h_15_ENHANCED_CONSTRUCTORS \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	AHoleSHitGameMode(AHoleSHitGameMode&&) = delete; \
+	AHoleSHitGameMode(const AHoleSHitGameMode&) = delete; \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AHoleSHitGameMode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHoleSHitGameMode); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(AHoleSHitGameMode) \
+	NO_API virtual ~AHoleSHitGameMode();
 
 
-#define FID_HoleShit_Source_HoleShit_HoleShitGameMode_h_9_PROLOG
-#define FID_HoleShit_Source_HoleShit_HoleShitGameMode_h_12_GENERATED_BODY \
+#define FID_HoleSHit_Source_HoleSHit_HoleSHitGameMode_h_12_PROLOG
+#define FID_HoleSHit_Source_HoleSHit_HoleSHitGameMode_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_HoleShit_Source_HoleShit_HoleShitGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	FID_HoleShit_Source_HoleShit_HoleShitGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	FID_HoleSHit_Source_HoleSHit_HoleSHitGameMode_h_15_INCLASS_NO_PURE_DECLS \
+	FID_HoleSHit_Source_HoleSHit_HoleSHitGameMode_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> HOLESHIT_API UClass* StaticClass<class AHoleShitGameMode>();
+class AHoleSHitGameMode;
+
+// ********** End Class AHoleSHitGameMode **********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_HoleShit_Source_HoleShit_HoleShitGameMode_h
-
+#define CURRENT_FILE_ID FID_HoleSHit_Source_HoleSHit_HoleSHitGameMode_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

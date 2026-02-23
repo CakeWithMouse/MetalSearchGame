@@ -4298,6 +4298,66 @@
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-Voxel.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-Voxel.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelEditorDefault.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelEditorDefault.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelExamples.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelExamples.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelGraph.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelGraph.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelGraphEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelGraphEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelHelpers.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor-VoxelHelpers.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
 		}
 	],
 	"RuntimeDependencies": [
@@ -28828,6 +28888,10 @@
 		{
 			"Path": "$(ProjectDir)/HoleSHit.uproject",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VoxelPlugin/VoxelFree.uplugin",
+			"Type": "UFS"
 		}
 	],
 	"BuildPlugins": [
@@ -29033,6 +29097,7 @@
 		"VariantManagerContent",
 		"VisualStudioCodeSourceCodeAccess",
 		"VisualStudioSourceCodeAccess",
+		"VoxelFree",
 		"WaveTable",
 		"WebMMedia",
 		"WebMMoviePlayer",
